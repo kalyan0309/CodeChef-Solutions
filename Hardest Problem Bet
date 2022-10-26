@@ -1,0 +1,10 @@
+# cook your dish here
+for _ in range(int(input())):
+    a,b,c = map(int, input().split())
+    d = min(a,b,c)
+    if d == b:
+        print("Bob")
+    elif d == c:
+        print("Alice")
+    else:
+        print("Draw")
