@@ -1,0 +1,8 @@
+# cook your dish here
+for _ in range(int(input())):
+    a,b,c = map(int,input().split())
+    trs = (b*1)+(c*2)
+    if trs<=a:
+        print("YES")
+    else:
+        print("NO")
