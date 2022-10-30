@@ -1,0 +1,10 @@
+# cook your dish here
+for _ in range(int(input())):
+    a,b,c = map(int,input().split())
+    winner = max(a,b,c)
+    if winner == a:
+        print("Alice")
+    elif winner == b:
+        print("Bob")
+    else:
+        print("Charlie")
