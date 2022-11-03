@@ -1,0 +1,10 @@
+# cook your dish here
+for _ in range(int(input())):
+    a,b = map(int,input().split())
+    db = a*3
+    tb = b*2
+    if min(db,tb) == db:
+        print(db)
+    else:
+        print(tb)
+        
