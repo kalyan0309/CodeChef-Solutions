@@ -1,0 +1,10 @@
+# cook your dish here
+for _ in range(int(input())):
+    x,p,q = map(int,input().split())
+    if p == q:
+        print(0)
+    elif q == 0:
+        print(x*p)
+    else:
+        tot = p-q
+        print(x*tot)
